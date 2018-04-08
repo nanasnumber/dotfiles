@@ -2,6 +2,7 @@ set nocompatible
 execute pathogen#infect()
 syntax on
 colorscheme cobalt2
+set t_Co=256
 filetype plugin indent on
 autocmd VimEnter * NERDTree
 let g:NERDTreeMouseMode=3
@@ -15,12 +16,9 @@ set encoding=utf-8
 set wrap
 set textwidth=79
 set formatoptions=tcqrn1
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set expandtab
 set scrolloff=1
 set backspace=indent,eol,start
 set tabstop=4 
 set softtabstop=4 
 set shiftwidth=4
+set listchars=tab:!·,trail:·
