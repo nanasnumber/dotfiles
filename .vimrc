@@ -1,13 +1,16 @@
-set nocompatible
+set nocp
 execute pathogen#infect()
-syntax on
-colorscheme cobalt2
-set t_Co=256
+syntax enable
+set background=dark
+colorscheme medic_chalk
 filetype plugin indent on
-autocmd VimEnter * NERDTree
+
+"NERDTree stuff
+autocmd vimenter * NERDTree
+let NERDTreeShowHidden=1
 let g:NERDTreeMouseMode=3
+
 set mouse=a
-filetype plugin indent on
 set number
 set linespace=3
 set ruler
@@ -22,15 +25,3 @@ set tabstop=4
 set softtabstop=4 
 set shiftwidth=4
 set listchars=tab:!·,trail:·
-let NERDTreeShowHidden=1
-
-"Syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_javascript_checkers=['eslint']
