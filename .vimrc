@@ -2,7 +2,7 @@ set nocp
 execute pathogen#infect()
 syntax enable
 set background=dark
-colorscheme medic_chalk
+colorscheme eldar
 filetype plugin indent on
 
 "NERDTree stuff
