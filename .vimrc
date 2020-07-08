@@ -16,7 +16,7 @@ set linespace=3
 set ruler
 set visualbell
 set encoding=utf-8
-set wrap
+"set wrap
 set textwidth=79
 set formatoptions=tcqrn1
 set scrolloff=1
