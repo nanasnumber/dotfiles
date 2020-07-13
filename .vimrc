@@ -25,3 +25,8 @@ set tabstop=4
 set softtabstop=4 
 set shiftwidth=4
 set listchars=tab:!·,trail:·
+
+"js template literal
+call jspretmpl#register_tag('html', 'html')
+autocmd FileType javascript JsPreTmpl
+autocmd FileType javascript.jsx JsPreTmpl
