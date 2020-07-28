@@ -17,6 +17,7 @@ set ruler
 set visualbell
 set encoding=utf-8
 "set wrap
+set breakindent
 set textwidth=79
 set formatoptions=tcqrn1
 set scrolloff=1
