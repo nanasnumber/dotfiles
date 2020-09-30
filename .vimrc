@@ -12,18 +12,19 @@ let g:NERDTreeMouseMode=3
 
 set mouse=a
 set number
+set relativenumber
 set linespace=3
 set ruler
-set visualbell
+set colorcolumn=80
 set encoding=utf-8
-"set wrap
-set textwidth=79
+set wrap
+set breakindent
 set formatoptions=tcqrn1
 set scrolloff=1
 set backspace=indent,eol,start
-set tabstop=4 
-set softtabstop=4 
-set shiftwidth=4
+set tabstop=2 
+set softtabstop=2 
+set shiftwidth=2
 set listchars=tab:!·,trail:·
 
 "emmet
