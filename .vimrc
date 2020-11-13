@@ -22,10 +22,16 @@ set breakindent
 set formatoptions=tcqrn1
 set scrolloff=1
 set backspace=indent,eol,start
-set tabstop=2 
-set softtabstop=2 
+set tabstop=2
+set softtabstop=2
 set shiftwidth=2
-set listchars=tab:!·,trail:·
+
+"no error bell and visual bell
+set noeb vb t_vb=
+
+"show indentation
+set list listchars=tab:\|·,trail:·
+hi SpecialKey ctermfg=darkgray
 
 "emmet
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
