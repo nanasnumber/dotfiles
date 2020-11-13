@@ -32,6 +32,7 @@ set noeb vb t_vb=
 "show indentation
 set list listchars=tab:\|·,trail:·
 hi SpecialKey ctermfg=darkgray
+hi Comment ctermfg=darkgray
 
 "emmet
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
