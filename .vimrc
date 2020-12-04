@@ -22,6 +22,7 @@ set breakindent
 set formatoptions=tcqrn1
 set scrolloff=1
 set backspace=indent,eol,start
+set expandtab
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
@@ -30,7 +31,7 @@ set shiftwidth=2
 set noeb vb t_vb=
 
 "show indentation
-set list listchars=tab:\|·,trail:·
+set list listchars=space:·,trail:·
 hi SpecialKey ctermfg=darkgray
 hi Comment ctermfg=darkgray
 

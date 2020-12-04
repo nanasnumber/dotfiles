@@ -1,0 +1,32 @@
+a keys ffffff
+
+#vim
+k esc 33FFFF
+k space 33FFFF
+k h ff7700
+k j ff7700
+k k ff7700
+k l ff7700
+
+k x ff0000
+k d ff0000
+
+k y 00ff00
+k p 00ff00
+
+k 1 ff7700
+k 2 ff7700
+k 3 ff7700
+k 4 0066cc
+k 5 ff7700
+k 6 0066cc
+k 7 ff7700
+k 8 ff7700
+k 9 ff7700
+k 0 ff7700
+
+g modifiers 6600cc
+
+
+#commit color to keyboard
+c
