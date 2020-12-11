@@ -35,6 +35,9 @@ set list listchars=space:·,trail:·
 hi SpecialKey ctermfg=darkgray
 hi Comment ctermfg=darkgray
 
+"trailing whitespace
+autocmd BufWritePre * %s/\s\+$//e
+
 "emmet
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
