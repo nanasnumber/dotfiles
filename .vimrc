@@ -30,8 +30,12 @@ set shiftwidth=2
 "no error bell and visual bell
 set noeb vb t_vb=
 
+"highlight current line
+set cursorline
+hi CursorLine cterm=NONE ctermbg=235
+
 "show indentation
-set list listchars=space:·,trail:·
+" set list listchars=space:·,trail:·
 hi SpecialKey ctermfg=darkgray
 hi Comment ctermfg=darkgray
 
