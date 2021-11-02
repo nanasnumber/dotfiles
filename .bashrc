@@ -120,6 +120,11 @@ alias ll="ls -l --color=auto"
 #file manager
 alias open="pcmanfm"
 
+# Activate external display
+alias exton="xrandr --auto --output VGA-1 --mode 1920x1080 --right-of LVDS-1 && feh --bg-fill ~/Pictures/default.jpg"
+# Deactivate external display
+alias extoff="xrandr --output VGA-1 --off"
+
 #obs
 alias obs="LIBGL_ALWAYS_SOFTWARE=1 obs"
 
@@ -134,4 +139,9 @@ parse_git_branch() {
 }
 # export PS1="\u@\h \[\e[33m\]\w \[\e[32m\]\$(parse_git_branch)\[\e[00m\]$ "
 export PS1=" \[\e[33m\]\W \[\e[32m\]\$(parse_git_branch)\[\e[00m\]$ "
-. "$HOME/.cargo/env"
+
+# Go related
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
+export PATH=$PATH:/usr/local/go/bin
