@@ -138,7 +138,7 @@ parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 # export PS1="\u@\h \[\e[33m\]\w \[\e[32m\]\$(parse_git_branch)\[\e[00m\]$ "
-export PS1=" \[\e[33m\]\W \[\e[32m\]\$(parse_git_branch)\[\e[00m\]$ "
+export PS1=" \[\e[33m\]\W\[\e[32m\]\$(parse_git_branch)\[\e[00m\]$ "
 
 # Go related
 export GOPATH=$HOME/go
