@@ -5,7 +5,7 @@ set background=dark
 filetype plugin indent on
 
 "NERDTree setting
-" autocmd vimenter * NERDTree
+autocmd vimenter * NERDTree
 let NERDTreeShowHidden=1
 let g:NERDTreeMouseMode=3
 
