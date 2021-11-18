@@ -4,18 +4,15 @@ syntax enable
 set background=dark
 filetype plugin indent on
 
-"NERDTree stuff
-autocmd vimenter * NERDTree
+"NERDTree setting
+" autocmd vimenter * NERDTree
 let NERDTreeShowHidden=1
 let g:NERDTreeMouseMode=3
 
+set encoding=utf-8
 set mouse=a
 set number
 set relativenumber
-set linespace=3
-set ruler
-set colorcolumn=80
-set encoding=utf-8
 set wrap
 set breakindent
 set formatoptions=tcqrn1
@@ -29,13 +26,15 @@ set shiftwidth=2
 "no error bell and visual bell
 set noeb vb t_vb=
 
-"highlight current line
+"column setting
+set colorcolumn=80
+highlight ColorColumn ctermbg=darkgrey
+
+"current line setting
 set cursorline
 hi CursorLine cterm=NONE ctermbg=235
 
-"show indentation
-" set list listchars=space:·,trail:·
-hi SpecialKey ctermfg=darkgray
+"commnet setting
 hi Comment ctermfg=darkgray
 
 "trailing whitespace
