@@ -134,6 +134,7 @@ alias obs="LIBGL_ALWAYS_SOFTWARE=1 obs"
 
 #git alias
 alias gs='git status'
+alias gd='git diff .'
 alias gaa='git add --all'
 alias gcm='git commit -m'
 alias gpo='git push origin'
