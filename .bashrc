@@ -3,6 +3,8 @@
 # for examples
 source ~/.asciiart
 
+set -o vi
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;

@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/enlezlab'
 let g:netrw_dirhist_2='/home/enlezlab/project/art-florentyna-pkg'
 let g:netrw_dirhist_3='/home/enlezlab/project/art-florentyna-pkg/script'
+let g:netrw_dirhist_4='/home/enlezlab/project/art-florentyna/static/js/components'
+let g:netrw_dirhist_5='/home/enlezlab/project/art-florentyna/static/js'
+let g:netrw_dirhist_6='/home/enlezlab/project/art-florentyna/static'

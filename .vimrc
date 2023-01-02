@@ -2,7 +2,7 @@ set nocp
 execute pathogen#infect()
 syntax enable
 set background=dark
-colorscheme gruvbox
+colorscheme vividchalk
 filetype plugin indent on
 
 "NERDTree setting
