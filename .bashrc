@@ -1,9 +1,6 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
-source ~/.asciiart
-
-set -o vi
 
 # If not running interactively, don't do anything
 case $- in
@@ -152,6 +149,8 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 export PATH=$PATH:/usr/local/go/bin
+
+export GO111MODULE=on
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"

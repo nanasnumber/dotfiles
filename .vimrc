@@ -34,6 +34,7 @@ highlight ColorColumn ctermbg=darkgrey
 "current line setting
 set cursorline
 hi CursorLine cterm=NONE ctermbg=235
+:set cursorcolumn
 
 "commnet setting
 hi Comment ctermfg=darkgray
