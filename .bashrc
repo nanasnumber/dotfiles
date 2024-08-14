@@ -120,6 +120,9 @@ alias ll="ls -l --color=auto"
 #vim
 alias v="vim"
 
+#neovim
+alias nv="nvim"
+
 #file manager
 alias open="pcmanfm"
 
@@ -131,12 +134,22 @@ alias extoff="xrandr --output VGA-1 --off"
 #obs
 alias obs="LIBGL_ALWAYS_SOFTWARE=1 obs"
 
+#seidr
+alias vtoa="~/project/seidr/vtoa.sh"
+alias swapa="~/project/seidr/swapa.sh"
+
+#yt-dlp
+alias yt-dlp="~/program/yt-dlp/yt-dlp"
+
+alias postman="~/program/Postman/Postman"
+
 #git alias
 alias gs='git status'
 alias gd='git diff .'
 alias gaa='git add --all'
 alias gcm='git commit -m'
 alias gpo='git push origin'
+
 #show git branch
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
@@ -154,3 +167,5 @@ export GO111MODULE=on
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
